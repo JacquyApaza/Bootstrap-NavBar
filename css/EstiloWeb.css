@@ -1,0 +1,37 @@
+body { 
+	background-position: center center;						/* Para dejar la imagen de fondo centrada, vertical y horizontalmente */
+	background-repeat: no-repeat;							/* Para que la imagen de fondo no se repita */
+	background-attachment: fixed;							/* La imagen se fija en la ventana de visualización para que la altura de la imagen no supere a la del contenido */
+	-moz-background-size: cover; 
+	background-size: cover;									/* La imagen de fondo se reescala automáticamente con el cambio del ancho de ventana del navegador */
+	background-color: #66999; 								/* Se muestra un color de fondo mientras se está cargando la imagen de fondo o si hay problemas para cargarla */
+	padding: 0;
+	margin: 0;
+}
+
+
+
+.card{
+	background-color: rgba(245, 245, 245, 0.7);
+}
+
+
+/* Cabecera de las páginas */
+.page-header{ 
+	background-color: rgba(245, 245, 245, 0.7); 
+	opacity: 1;
+	adding-bottom: 9px;
+	top: 0px;
+    margin: 0px 0px 20px 0px;			/* Top Right nBottom Left */
+    border-bottom: 1px solid #eee;
+}
+
+.active{
+	background-color: var( --primary );		/*  Color primario de Bootstrap */
+}
+
+/* Color de los links activos de la barra de navegación (navbar) */
+nav.navbar ul.navbar-nav li.nav-item a.active {
+	color: var( --ColorLinkActiveNavbar );
+}
+
